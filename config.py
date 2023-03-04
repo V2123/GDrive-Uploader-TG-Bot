@@ -8,10 +8,10 @@ class Config:
     API_HASH = os.environ.get('API_HASH')
     DATABASE_URL = os.environ.get('DATABASE_URL')
   else:
-    BOT_TOKEN = '5318983921:AAFU0nd63JV18ynHCYdtgOhef-a5doQ6aXo' # Get it from https://t.me/BotFather
-    APP_ID = '2087375' # Get it from my.telegram.org/apps
-    API_HASH = '3f4fb36390d628d9b99e0a73b9c5fc7d' # Get it from my.telegram.org/apps
-    DATABASE_URL = 'https://pro10.cpanel.name:2083/cpsess1054741561/frontend/jupiter/sql/userrights/?user=chanelcl_Uploader&db=chanelcl_Uploader' # SQL Database URL / Heroku Postgres URL
+    BOT_TOKEN = '' # Get it from https://t.me/BotFather
+    APP_ID = '' # Get it from my.telegram.org/apps
+    API_HASH = '' # Get it from my.telegram.org/apps
+    DATABASE_URL = '' # SQL Database URL / Heroku Postgres URL
 
 
 class Messages:
